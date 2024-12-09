@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scroll Animation</title>
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="header" class="header">
+        <div class="header-logo">
+            <div class="logo">
+                LOGO
+            </div>    
+        </div>
+        <div class="header-burger-menu">
+            <div id="burger-menu" class="burger-menu">
+                <span class="burger-menu-line"></span>
+            </div>
+        </div>
+        <div class="header-contact-us"><button class="btn scroll-to-footer">contact us</button></div>
+        <div id="menu" class="menu">
+            <div class="menu-container">
+                <div class="menu-left-side"></div>
+                <div class="menu-right-side">
+                    <ul class="menu-list">
+                        <li class="menu-list-item"><a>Main</a></li>
+                        <li class="menu-list-item"><a>Services</a></li>
+                        <li class="menu-list-item"><a>About</a></li>
+                    </ul>
+                    <div class="menu-footer">
+                        <div class="menu-footer-wrapper">
+                            <div class="menu-footer-item">
+                                <h5 class="menu-footer-item-title">Contact</h5>
+                                <div class="menu-footer-item-info">
+                                    <p>Email: hello@dotdots.net</p>
+                                    <p>Telegram: @johnizaguirre</p>
+                                </div>
+                            </div>
+                            <div class="menu-footer-item">
+                                <h5 class="menu-footer-item-title">GERMANY</h5>
+                                <div class="menu-footer-item-info">
+                                    <p>Potsdamer Str. 138</p>
+                                    <p>10783, Berlin</p>
+                                </div>
+                            </div>
+                            <div class="menu-footer-item">
+                                <h5 class="menu-footer-item-title">Social</h5>
+                                <div class="menu-footer-item-info menu-footer-item-info-social">
+                                    <a href=""><img src="./img/linken.svg" alt="linkedin"></a>
+                                    <a href=""><img src="./img/social.svg" alt="social"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <button  class="btn btn-menu scroll-to-footer">contact us</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+     <main class="main">
+        <div class="container">
+            <div id="main-wrapper" class="main-wrapper">
+                <div class="section" >
+                    <div class="section-box-img">
+                        <img class="section-img" src="./img/section/ruído.png">
+                    </div>
+                    <span class="section-number">
+                        01
+                    </span>
+                    <div class="section-info">
+                        <h3 class="section-title">
+                            Consultancy
+                        </h3>
+                        <p class="section-description">
+                            We help discover the right strategies for Web3 companies' set-ups, vision, and mission and navigate you through all the business stages, from kickstart ideation to turning concepts into cutting-edge solutions and matured business.
+                        </p>
+                        <button class="btn">Book consultation</button>
+                    </div>
+                    
+                </div>
+                <div class="section" >
+                    <div class="section-box-img">
+                        <img class="section-img" src="./img/section/ruído2.png">
+                    </div>
+                    <span class="section-number">
+                        02
+                    </span>
+                    <div class="section-info">
+                        <h3 class="section-title">
+                            Infrastructure
+                        </h3>
+                        <p class="section-description">
+                            We're a are a dynamic hub of turn-key blockchain-based solutions that you may use for your product, whether it's trading platforms, distributed ledgers, 
+                            DeFi or DAOs.
+                        </p>
+                        <button class="btn">Explore</button>
+                    </div>
+                </div>
+                <div class="section" >
+                    <div class="section-box-img">
+                        <img class="section-img" src="./img/section/ruído3.png">
+                    </div>
+                    <span class="section-number">
+                        03
+                    </span>
+                    <div class="section-info">
+                        <h3 class="section-title">
+                            Venture Capital
+                        </h3>
+                        <p class="section-description">
+                            Having solid relationships with traditional investment partners and advanced web3 investment ecosystems, crypto exchanges, accelerators and DAOs, we're a reliable partner to start your web3 project.
+                        </p>
+                        <button class="btn">Let’s talk</button>
+                    </div>
+                </div>
+            </div>
+               
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+
+            <div class="footer-head">
+                 <h1 class="footer-title">
+                     Let's empower growth
+                 </h1>
+                 <img src="./img/section/footer-img.png" class="footer-img" alt="footer-img">
+            </div>
+            <form class="form" action="#">
+                 <div class="form-block">
+                     <div class="input-container">
+                         <label for="fullname">What is your full name?</label>
+                         <input type="text"  placeholder="" />
+                       </div>
+                     <div class="input-container">
+                         <label for="fullname">Telephone</label>
+                         <input type="tel" class="tel"  placeholder="+38(___)-___-__-__" />
+                     </div>
+                 </div>
+                 <div class="form-block">
+                     <div class="input-container">
+                         <label for="fullname">What is your business email?</label>
+                         <input type="email" placeholder="" />
+                     </div>
+                     <div class="input-container">
+                         <label for="fullname">Tell us more...</label>
+                         <input type="text"  placeholder="" />
+                     </div>
+                 </div>
+                 <div class="checkbox-container">
+                    <input type="checkbox" id="customCheckbox">
+                    <label for="customCheckbox">
+                      <div class="custom-checkbox"></div>
+                      <span>By checking this box, you are agreeing to our <a class="faq">terms and conditions of service.</a></span> 
+                    </label>
+                  </div>
+                 <button class="btn btn-form">Send request</button>
+            </form>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
